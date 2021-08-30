@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Calculator app</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="cuadro1">
+        <div class="row">
+          <div class="col-md-12">
+            <label id='etiqueta'></label>
+            <input type="text" id='caja' class="valor" value="">
+            
+          </div>
+        </div>
+      </div>
+      <div class='cuadro2'>
+        <div class="row">
+          <div class="col-3">
+            <input type="submit" value="7" class='botones'>
+          </div>
+          <div class="col-3">
+            <input type="submit" value="8" class='botones'>
+          </div>
+          <div class="col-3">
+            <input type="submit" value="9" class='botones'>
+          </div>
+          <div class="col-3">
+            <input type="submit" value="DEL" class='botones azul'>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <input type="submit" value="4" class='botones'>
+          </div>
+          <div class="col-md-3">
+            <input type="submit" value="5" class='botones'>
+          </div>
+          <div class="col-md-3">
+            <input type="submit" value="6" class='botones'>
+          </div>
+          <div class="col-md-3">
+            <input type="submit" value="➕" class='botones'>
+          </div>
+        </div>
+
+          <div class="row">
+            <div class="col-md-3"><input type="submit" value="1" class='botones'></div>
+            <div class="col-md-3"><input type="submit" value="2" class='botones'></div>
+            <div class="col-md-3"><input type="submit" value="3" class='botones'></div>
+            <div class="col-md-3"><input type="submit" value="➖" class='botones'></div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-3"><input type="submit" value="." class='botones'></div>
+            <div class="col-md-3"><input type="submit" value="0" class='botones'></div>
+            <div class="col-md-3"><input type="submit" value="➗" class='botones'></div>
+            <div class="col-md-3"><input type="submit" value="X" class='botones'></div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6"><input type="submit" value="RESET" class='botones azul'></div>
+            <div class="col-md-6"><input id='igual' type="submit" value="=" class='botones rojo'></div>
+          </div>
+        </div>
+      </div>
+      
+      <script src="js/main.js"></script>
+  </body>
+
+</html>
